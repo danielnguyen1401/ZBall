@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBall", "ZBall.csproj", "{96D6A15A-DAAA-62EC-611C-71540D36D930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBall.Editor", "ZBall.Editor.csproj", "{F24D8E0F-3774-D1C5-A338-5CFD05AF53EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96D6A15A-DAAA-62EC-611C-71540D36D930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D6A15A-DAAA-62EC-611C-71540D36D930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D6A15A-DAAA-62EC-611C-71540D36D930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D6A15A-DAAA-62EC-611C-71540D36D930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24D8E0F-3774-D1C5-A338-5CFD05AF53EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24D8E0F-3774-D1C5-A338-5CFD05AF53EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24D8E0F-3774-D1C5-A338-5CFD05AF53EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24D8E0F-3774-D1C5-A338-5CFD05AF53EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
