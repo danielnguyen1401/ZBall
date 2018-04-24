@@ -7,6 +7,7 @@ public class MenuController : MonoBehaviour
     [SerializeField] Button musicBtn;
     [SerializeField] Sprite disableSprite;
     [SerializeField] Sprite musicEnableSprite;
+    const string GO = "https://www.google.com.vn/";
 
     private bool musicIsOn = true;
 
@@ -20,19 +21,21 @@ public class MenuController : MonoBehaviour
     {
     }
 
-    // Update is called once per frame
     void Update()
     {
     }
 
     void OnPlayClick()
     {
-        Debug.Log("Play");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
     }
 
+    void OnRateClick()
+    {
+        
+    }
     void OnMusicClick()
     {
-//        Debug.Log("Music");
         musicIsOn = !musicIsOn;
 
         if (!musicIsOn)
@@ -43,6 +46,5 @@ public class MenuController : MonoBehaviour
         {
             musicBtn.transform.GetChild(1).GetComponent<Image>().sprite = musicEnableSprite;
         }
-        
     }
 }
